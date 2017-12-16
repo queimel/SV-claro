@@ -1,0 +1,163 @@
+
+
+/*FIN ESTILOS CHAT*/
+/*___ MEDIA QUERIES ___*/
+
+@media screen and (max-width: 1000px) {
+    .container {
+        box-sizing: border-box;
+        padding: 0 4%;
+    }
+
+    header .down nav ul li a {
+        padding: 5px 0;
+        font-size: .65em;
+    }
+    header .down nav ul li.active {
+        border-bottom: 1px solid #fff;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+
+    footer .bottom .container div {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer .bottom .container div {
+        width: 50%;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    footer .bottom h4 {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    header .down nav ul.mobile.responsive{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    header .down nav ul.desktop,
+    header .up .right section div.desktop,
+    header .up .right section .user {
+        display: none;
+    }
+    header .down nav span.ico {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .accordion .buttonA:after {
+        content: "\f078";
+        color: #1f97ae;
+        font-size: .8em;
+        float: right;
+        position: relative;
+        top: 2px;
+    }
+    .accordion .buttonA.active:after {
+        content: "\f054";
+    }
+
+    footer .up .container > div {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    footer .breadcrumb {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+    footer .bottom {
+        padding: 20px 0;
+    }
+    footer .bottom .container div {
+        margin: 0;
+        padding: 0 5px 20px;
+    }
+    footer .bottom h4 {
+        padding-bottom: 0;
+        text-align: left;
+        line-height: 1;
+        font-size: .7em;
+        font-weight: 400;
+    }
+    footer .bottom h4:before {
+        text-align: center;
+        margin: 0 auto;
+        height: 36px;
+        top: 12px;
+    }
+    footer .bottom p {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 400px) {
+
+    footer .up .container > div ul li {
+        width: 100%;
+        padding: 7px 0;
+    }
+    footer .down .logo {
+        background-size: 45px auto;
+    }
+    footer .down p {
+        padding: 3px 0;
+        font-size: .75em;
+        text-align: right;
+        float: right;
+    }
+
+    
+}
+
+
+/* INTERNET EXPLORER 10 HACK */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {}
+
+
+/* INTERNET EXPLORER 09 HACK */
+
+@media screen and (min-width: 0\0) {}
+
+
+/* INTERNET EXPLORER 08 HACK */
+
+@media \0screen {}
+
+
+/* FIREFOX HACK */
+
+@-moz-document url-prefix() {}
+
+
+.link.ico.inline {
+    display: inline-block;
+}
+

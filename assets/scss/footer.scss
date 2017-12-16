@@ -1,0 +1,179 @@
+/* FOOTER */
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    .bottom {
+      background-color: #f2f2f2;
+      padding: 40px 0;
+      width: 100%;
+      overflow: hidden;
+      .container div {
+        /*
+        Para quitar beneficios!
+        width: 25%;*/
+        width: 33%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 30px;
+        a {
+          color: #222;
+        }
+      }
+      h4 {
+        padding-bottom: 15px;
+        position: relative;
+        font-size: .9em;
+      }
+      p {
+        color: #555;
+        font-size: .8em;
+        font-weight: 100;
+      }
+      h4 {
+        &:before {
+          content: '';
+          height: 36px;
+          display: inline-block;
+          position: relative;
+          top: 9px;
+          margin-right: 10px;
+        }
+        &.cobertura:before {
+          background: url('../img/m-pin.png') no-repeat left;
+          width: 35px;
+          background-size: 40px;
+        }
+        &.cda:before {
+          background: url('../img/m-cda.png') no-repeat left;
+          width: 35px;
+          background-size: 47px;
+        }
+        &.club:before {
+          background: url('../img/m-club.png') no-repeat left;
+          width: 35px;
+          background-size: 31px;
+        }
+        &.tienda:before {
+          background: url('../img/m-movil.png') no-repeat left;
+          width: 35px;
+          background-size: 42px;
+        }
+      }
+    }
+    .breadcrumb {
+      overflow: hidden;
+      padding: initial;
+      background: #cacaca;
+      padding: 5px 0;
+      ul li {
+        color: #222;
+        font-weight: 600;
+        display: inline-block;
+        font-size: .8em;
+        a {
+          color: #666;
+          font-weight: 100;
+          &:after {
+            content: '/';
+            padding: 0 3px 0 9px;
+          }
+        }
+      }
+    }
+    .up {
+      padding: 25px 0 14px;
+      background: #DDD;
+      overflow: hidden;
+      .container {
+        > div {
+          width: 33.3%;
+          padding: 0 1%;
+          float: left;
+          margin-bottom: 15px;
+          box-sizing: border-box;
+          span {
+            font-size: .92em;
+            font-weight: 500;
+            margin-bottom: 6px;
+            display: block;
+            color: #444;
+            border-bottom: 3px solid #cacaca;
+            &:after {
+              color: #cacaca;
+            }
+          }
+          ul li {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+            padding-right: 2%;
+            a {
+              font-size: .8em;
+              font-weight: 100;
+              color: #222;
+              line-height: 1.8;
+            }
+          }
+        }
+        .rrss li {
+          width: inherit;
+          padding-right: 10px;
+          a {
+            font-size: 0;
+            &:before {
+              font-size: 35px;
+              color: #444;
+              line-height: 1;
+            }
+            &.facebook:before {
+              content: "\f082";
+            }
+            &.twitter:before {
+              content: "\f081";
+            }
+          }
+        }
+      }
+    }
+    .down {
+      background: #000;
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 10px 0;
+      .logo {
+        width: 55px;
+        height: 20px;
+        background: url('../img/logo-claro-blanco.svg') no-repeat;
+        background-size: 55px auto;
+        font-size: 0;
+        display: block;
+        float: left;
+      }
+      p {
+        color: #fff;
+        font-size: .85em;
+        display: inline-block;
+        padding: 4px 0 0 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+
+    footer .bottom .container div {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer .bottom .container div {
+        width: 50%;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    footer .bottom h4 {
+        padding-bottom: 5px;
+    }
+}
