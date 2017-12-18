@@ -1,0 +1,2385 @@
+.flex-nav-prev li{
+    width:15px;
+    }
+.form fieldset.full{
+    width:97%;
+    }
+.rojo{
+    color: #da262c;
+}
+
+.form fieldset.full{
+    width:100%;
+}
+.leyend .subT{
+    margin-bottom: 10px;
+}
+.leyend  ul li{
+    padding: 4px  0;
+}
+
+.paginator {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.paginator li {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.paginator li a {
+    background-color: #999;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: .8em;
+    font-weight: 500;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.paginator li a.desactivo, .paginator li a.activo{
+    cursor: default;
+}
+
+.ico {
+    cursor:pointer;
+}
+
+.container, .alert {
+    max-width:1366px;
+}
+.accordion.bgA .left .links{
+    clear: both;
+}
+ul.planDetails {
+    margin-left:5px;
+    padding-left:10px;
+}
+ul.planDetails li{list-style: disc;}
+.down.mis_datos .form {
+    max-width: 100%;
+}
+
+.cobertor{
+    background: url('../images/trama.png') repeat;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    cursor:wait;
+}
+.cobertor .img_cobertor{
+    left: 0;
+    margin: -64px auto 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+aside {
+    z-index: 1000;
+}
+/* Cambio Clave */
+.cont_clave .col-70{
+    float: left;
+    padding-right: 40px;
+    width: 64%;
+}
+
+.cont_clave .col-30{
+    float: right;
+    width: 29%;
+}
+
+.cont_clave .cont_btn{
+    text-align: right;
+}
+
+.cont_clave fieldset{
+    margin-bottom: 20px;
+}
+
+.cont_clave .cont_btn .bt-red{
+    display: inline-block;
+    width: auto;
+}
+
+
+/* ERRORES */
+/*03-11-2016*/
+
+.cont_tit_btn{
+    overflow: hidden;
+}
+
+.cont_tit_btn h1{
+    display: inline-block;
+    float: left;
+}
+
+.cont_tit_btn a{
+    float: right;
+    margin: 30px 0;
+    width: auto;
+}
+
+.cont_error ul{
+    margin: 0 -10px;
+    padding-top: 8%;
+}
+
+.cont_error li{
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0 10px;
+    vertical-align: middle;
+    width: 46%;
+}
+.cont_error li img{
+    max-width: 100%;
+}
+
+.cont_error li h1{
+    color: #da262c;
+    padding: 0;
+}
+
+.form p.message_error{
+    display:none;
+    color:red;
+    margin: 0 2% 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .cont_clave .col-70,
+    .cont_clave .col-30{
+        float: none;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+input[type="password"]{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    color: #333;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 400;
+    height: 38px;
+    line-height: 1.5em;
+    margin: 0;
+    outline: medium none;
+    padding: 10px;
+    width: 100%;
+}
+.bt-red.big{
+    width:auto;
+}
+
+header .up .right section .user > span::before,
+header .up .right section .user > div ul li a.notify::after{
+    content:"";
+}
+
+.ico {
+    cursor:pointer;
+}
+
+aside.epa-hide .slide-arrow {
+    display:none;
+}
+
+.form fieldset.full{
+    width:100%;
+}
+.leyend .subT{
+    margin-bottom: 10px;
+}
+.leyend  ul li{
+    padding: 4px  0;
+}
+
+.paginator {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.paginator li {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.paginator li a {
+    background-color: #999;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: .8em;
+    font-weight: 500;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.paginator li a.desactivo, .paginator li a.activo{
+    cursor: default;
+}
+
+
+
+
+
+/* Actualiza estilo formulario */
+.cont_clave .col-70{
+    float: left;
+    padding-right: 40px;
+    width: 64%;
+}
+
+.cont_clave .col-30{
+    float: right;
+    width: 29%;
+}
+
+.cont_clave .cont_btn{
+    text-align: right;
+}
+
+.cont_clave fieldset{
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.cont_clave .cont_btn .bt-red{
+    display: inline-block;
+    width: auto;
+}
+
+.sombra_slider{
+    background: url(../images/sombra.png) repeat;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.sombra_slider .cont_slider{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 10px;
+    position: relative;
+    top: 50%;
+    transition: top .4s ease;
+}
+
+.sombra_slider .cont_slider .flex-control-nav{
+    bottom: -30px;
+}
+
+.sombra_slider .cont_slider .flexslider .slides > li{
+    position: relative;
+}
+
+.sombra_slider .cont_slider .flex-control-paging li a{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow:    0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow:         0px 0px 0px 0px rgba(0,0,0,0);
+    background: #fff;
+}
+
+.sombra_slider .cont_slider .flex-control-paging li a.flex-active,
+.sombra_slider .cont_slider .flex-control-paging li a:hover{
+    background: #d61a2b;
+}
+
+.sombra_slider .cont_slider .caja_slide{
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+.sombra_slider .cont_slider .caja_slide p{
+    font-size: 1.2em;
+}
+
+.sombra_slider .cont_slider .txt_slide{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 25px;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 300;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.cont_close{
+    position: absolute;
+    text-align: right;
+    top: -10px;
+    width: 100%;
+    z-index: 1;
+}
+
+.cont_close .close_sombra{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.mensaje_alerta{
+    
+    margin-bottom: 20px;
+    
+}
+
+.mensaje_alerta h2 img{
+    vertical-align: middle;
+}
+
+.mensaje_alerta h2{
+    border: 1px solid #ececec;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.txt_right{
+    text-align: right;
+}
+
+.txt_right .bt-red{
+    display: inline-block;
+}
+
+.paginator .desactivo{
+    background: #bebdbd;
+    cursor: default;
+}
+
+.paginator .activo{
+    background: #da262c;
+}
+
+.fancybox-skin{
+    padding: 0 !important;
+}
+
+.cont_lightbox .titulo_light{
+    margin-bottom: 20px;
+}
+
+.cont_lightbox .wrap_lightbox{
+    padding: 20px;
+}
+
+.cont_lightbox .caja_lightbox{
+    border: 1px solid #ececec;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.rojo{
+    color: #da262c;
+}
+
+.letra_chica{
+    font-size: 0.8em;
+}
+
+.icon_left{
+    float: left;
+}
+
+.icon_left .icon{
+    margin-right: 10px;
+}
+
+.cont_lightbox .txt_right .bt-red{
+    display: inline-block;
+    width: auto;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.cont_lightbox .row{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.cont_lightbox .row .col-50{
+    float: left;
+    margin: 0 2%;
+    width: 46%;
+}
+
+.cont_lightbox .borde_img{
+    border: 1px solid #ececec;
+    display: inline-block;
+    padding: 20px;
+}
+
+.cont_lightbox .borde_img.active{
+    border: 1px solid #da262c;
+}
+
+.cont_lightbox .divblock{
+    margin-bottom: 10px;
+}
+
+.cont_lightbox img{
+    max-width: 100%;
+}
+
+.cont_lightbox .fondo{
+    background: #f8f8f8;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.cont_lightbox .fondo .h2left{
+    float: left;
+}
+
+.cont_lightbox .fondo .h2right{
+    float: right;
+}
+
+.cont_lightbox table{
+    border: 0 none;
+}
+
+.cont_lightbox table tr {
+    border-bottom: 0 none;
+}
+
+.cont_lightbox table th{
+    border-bottom: 1px solid #eee;
+}
+
+.cont_lightbox .mini_tabla{
+    max-width: 280px;
+}
+
+.cont_lightbox .cabeza_roaming{
+    margin-bottom: 20px;
+}
+
+.cont_lightbox .cabeza_roaming fieldset{
+    max-width: 270px;
+}
+
+.cont_lightbox .cabeza_roaming p{
+    margin: 15px 0;
+}
+
+.reset_fieldset fieldset{
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.btn_ayuda{
+    background: #DA262C;
+    bottom: 0;
+    color: #fff;
+    display: none;
+    font-weight: bold;
+    padding: 5px 0;
+    position: fixed;
+    text-align: center;
+    transition: top .5s ease;
+    width: 100%;
+    z-index: 1;
+}
+
+.btn_ayuda img{
+    margin-left: 10px;
+}
+
+.btn_ayuda.show{
+    bottom: auto;
+    height: 7%;
+}
+
+.btn_ayuda .icon-cerrar,
+.btn_ayuda.show .icon-ayuda{
+    display: none;
+}
+
+.btn_ayuda.show .icon-cerrar{
+    display: inline-block;
+}
+
+aside .panel{
+    display: block !important;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.form_oferta input[type="button"]{
+    border: 0 none;
+    display: inline-block;
+}
+
+.form_oferta .btn_condiciones{
+    color: #d22b1e;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.form_oferta .bt-red{
+    display: inline-block;
+    width: auto;
+}
+
+.form_oferta h3{
+    margin-bottom: 20px;
+}
+
+.form_oferta h4{
+    margin-bottom: 10px;
+}
+
+.panel .tab .txt_right{
+    margin-top: 20px;
+}
+
+.accordion.bgA .nombre_plan {
+    color: #000;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.panel table{
+    border: 0 none;
+    margin-bottom: 15px;
+}
+
+.panel table tr{
+    border-bottom: 0 none;
+}
+
+.panel table tr td{
+    padding: 5px;
+}
+
+.panel table .cont_votos{
+    text-align: right;
+}
+
+.lista_nueva li{
+    font-size: 0.85em;
+    font-weight: 100;
+    padding-bottom: 8px;
+}
+
+.lista_nueva li a{
+    color: #222;
+}
+
+.boletas_rojo{
+    background: #DA262C;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.cont_carrusel{
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.carrusel_ofertas .item{
+    margin: 5px;
+    text-align: center;
+}
+
+.carrusel_ofertas .item img,
+.carrusel_ofertas .item ul{
+    display: inline-block;
+}
+
+.carrusel_ofertas .item ul{
+    font-weight: 200;
+    line-height: 1.2em;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.carrusel_ofertas .item a{
+    color: #000;
+    display: block;
+}
+
+.carrusel_ofertas .item .precio_oferta{
+    color: #da262c;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.carrusel_ofertas .item .letra_mini{
+    font-size: 0.8em;
+}
+
+.cont_carrusel h3{
+    box-sizing: border-box;
+    color: #da262c;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1;
+    width: 16%;
+}
+
+.carrusel_left{
+    float: left;
+    width: 84%;
+}
+
+.carrusel_ofertas .owl-buttons{
+    margin-top: -12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.carrusel_ofertas .owl-buttons div{
+    background: url('../images/carrusel.png') no-repeat;
+    height: 25px;
+    text-indent: 9999px;
+    width: 25px;
+}
+
+.carrusel_ofertas .owl-buttons .owl-prev{
+    background-position: 0 -25px;
+    float: left;
+}
+
+.carrusel_ofertas .owl-buttons .owl-next{
+    float: right;
+}
+
+.datos .down ul li div,
+.datos .down ul li section{
+    overflow: hidden;
+}
+
+.accordionButton{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.accordionButton h3{
+    display: inline-block;
+    float: left;
+    width: auto;
+}
+
+.accordionButton span{
+    color: #da262c;
+    float: right;
+}
+
+.accordionButton .icon-mas{
+    display: none;
+}
+
+.accordionButton.closed .icon-mas{
+    display: inline-block;
+}
+
+.accordionButton.closed .icon-menos{
+    display: none;
+}
+
+.accordionContent{
+    display: none;
+    overflow: hidden;
+}
+
+.cont_contrata{
+    margin-top: 20px;
+}
+
+.btn_contrata{
+    background: #F8F8F8;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn_contrata ul{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn_contrata ul li{
+    line-height: 15px;
+}
+
+.progress > svg {
+    height: 100%;
+    display: block;
+}
+
+.saldos_disp .col-70{
+    float: left;
+    width: 70%;
+}
+
+.saldos_disp .col-30{
+    float: left;
+    padding-left: 25px;
+    width: 23%;
+}
+
+.saldos_disp .col-70 .icon-izq{
+    float: left;
+    padding-right: 5px;
+    width: 10%;
+}
+
+.saldos_disp .col-70 .icon-izq img{
+    max-width: 100px;
+}
+
+.saldos_disp .col-70 .info-der{
+    float: left;
+    width: 88%;
+}
+
+.saldos_disp .col-70 .info-der .msjs ul{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #f6f6f6;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.saldos_disp .col-70 .info-der .msjs div{
+    margin-bottom: 5px;
+    position: relative;
+    width: 78%;
+}
+
+.saldos_disp .col-70 .info-der .msjs p{
+    font-size: 0.750em;
+}
+
+.saldos_disp .col-70 .info-der .msjs .icon_globo{
+    bottom: -19px;
+    position: absolute;
+    right: 20px;
+}
+
+.saldos_disp .col-70 .info-der .msjs li{
+    float: left;
+    line-height: 16px;
+}
+
+.saldos_disp .col-70 .info-der .msjs .num_big{
+    font-size: 2.250em;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 20px 0 10px;
+}
+
+.saldos_disp .fila{
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.saldos_disp .col-70 .cont_barra{
+    margin-top: 30px;
+    padding-top: 32px;
+}
+
+.saldos_disp .col-70 .cont_barra .barra{
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background: #f6f6f6;
+    height: 14px;
+}
+
+.saldos_disp .col-70 .cont_barra .barra_relleno{
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background: #da262c;
+    height: 14px;
+    position: relative;
+    width: 40%;
+}
+
+.saldos_disp .col-70 .cont_barra .tooltip{
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+    background: #da262c;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.750em;
+    min-width: 44px;
+    padding: 2px 5px;
+    position: absolute;
+    right: -26px;
+    text-align: center;
+    top: -32px;
+}
+
+.saldos_disp .col-70 .cont_barra .tooltip img{
+    bottom: -7px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.saldos_disp .col-70 .cont_barra .cont_gb{
+    overflow: hidden;
+}
+
+.saldos_disp .col-70 .cont_barra .cont_gb p{
+    display: inline-block;
+    font-size: 0.875em;
+}
+
+.saldos_disp .col-70 .cont_barra .cont_gb .pleft{
+    float: left;
+}
+
+.saldos_disp .col-70 .cont_barra .cont_gb .pright{
+    float: right;
+}
+
+.saldos_disp .col-70 .cont_barra .pmini{
+    font-size: 0.750em;
+}
+
+.saldos_disp .col-30 .cont_pbar{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.saldos_disp .col-30 .cont_pbar .dias_bar{
+    color: #444444;
+    left: 0;
+    line-height: 18px;
+    margin-top: -15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+}
+
+.saldos_disp .col-30 .cont_pbar .dias_bar .num_big{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.saldos_disp .col-30 .pvence{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.saldos_disp .col-30 .cont_pbar .pvence{
+    display: none;
+}
+
+.icons-acciones li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.alert2{
+    text-align: center;
+}
+
+.alert2 .icon-alert{
+    margin-right: 10px;
+}
+
+.alert2 p{
+    padding: 0 32px;
+}
+
+.mobile .accordion .cont_acciones a{
+    margin-right: 10px;
+}
+
+.form_accesos{
+    max-width: 100%;
+}
+
+.form_accesos h1{
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.form_accesos .fila_check ul{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.form_accesos .fila_check li{
+    float: left;
+    margin-right: 50px;
+    width: 240px;
+}
+
+.form_accesos .fila_check li label{
+    float: left;
+    width: 210px;
+}
+
+.form_accesos .fila_check li input{
+    float: left;
+    margin: 0;
+    width: 10%;
+}
+
+.form_accesos .fila{
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.form_accesos .form_arriba label{
+    float: left;
+    width: 20%;
+}
+
+.form_accesos .form_arriba input[type=text],
+.form_accesos .form_arriba select{
+    float: left;
+    width: 80%;
+}
+
+.form_accesos .form_arriba{
+    margin-bottom: 40px;
+}
+
+.txt_error{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form_accesos .fila_acepto input,
+.form_accesos .fila_acepto label{
+    display: inline;
+}
+
+.form_accesos fieldset.fila_acepto.error i,
+.form.form_clave_nueva .label_fieldset.error i{
+    background: none;
+    clear: both;
+    color: #DA262C;
+    padding-left: 0;
+    position: static;
+}
+
+fieldset{
+    box-sizing: border-box;
+}
+
+
+.form_accesos .bt-red{
+    width: auto;
+}
+
+.cont_msje_confirm{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cont_msje_confirm .msje_confirm{
+    background: #DA262C;
+    box-sizing: border-box;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 5px 5px 5px;
+    width: 540px;
+}
+
+.cont_msje_confirm .msje_confirm .li_margin{
+    margin-right: 20px;
+}
+
+.cont_msje_confirm .msje_confirm li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.cont_msje_confirm .msje_confirm li a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.cont_msje_confirm .msje_confirm .cerrar_msje{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.form.form_clave_nueva{
+    max-width: 100%;
+}
+
+.form.form_clave_nueva .label_fieldset{
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.form_clave_nueva .cont_fila{
+    box-sizing: border-box;
+    margin: 0 -16px;
+    overflow: hidden;
+}
+
+.form_clave_nueva .col-50{
+    box-sizing: border-box;
+    float: left;
+    margin: 0 20px 20px;
+    width: 43%;
+}
+
+.form_clave_nueva .label_ancho{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.form_clave_nueva .label_ancho label,
+.form_clave_nueva .fila2 label{
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+}
+
+.form_clave_nueva .label_ancho ul li{
+    float: left;
+}
+
+.form_clave_nueva .label_ancho ul li:first-child{
+    margin-right: 80px;
+}
+
+.form_clave_nueva .label_ancho input[type=text]{
+    padding-right: 30px;
+}
+
+.form .cont_calendar{
+    float: left;
+    margin: 0 0 20px 0;
+    position: relative;
+    width: 280px;
+}
+
+.form .cont_calendar img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.form_clave_nueva .txt_right{
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.form_clave_nueva .txt_right li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.cont_dato .txt_right{
+    clear: both;
+}
+
+.cont_dato .txt_right .bt-red{
+    width: auto;
+}
+
+.cont_mis_datos{
+    color: #6d6d6d;
+}
+
+.cont_mis_datos h1{
+    padding-bottom: 0;
+}
+
+.cont_mis_datos h2{
+    margin-bottom: 20px;
+}
+
+.cont_mis_datos .dato_main{
+    border-bottom: 1px solid #f2f2f2;
+    margin: 40px 0 20px 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.cont_mis_datos .dato_main img,
+.cont_mis_datos .dato_main ul{
+    float: left;
+}
+
+.cont_mis_datos .dato_main img{
+    margin-right: 20px;
+}
+
+.cont_mis_datos .cont_dato ul{
+    margin-bottom: 20px;
+}
+
+.cont_mis_datos .cont_dato li{
+    float: left;
+    margin-right: 10px;
+}
+
+.cont_mis_datos .cont_dato .leyend ul li{
+    float: none;
+    font-size: 0.87em;
+    padding: 4px 0 4px 30px;
+}
+
+.cont_mis_datos .cont_dato .txt_right li{
+    display: inline-block;
+    float: none;
+    margin: 0 0 0 10px;
+}
+
+.cont_mis_datos .cont_dato .icon-dato{
+    margin-right: 30px;
+}
+
+.cont_mis_datos .mas_datos{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.cont_mis_datos .datos_arriba ul{
+    overflow: hidden;
+}
+
+.cont_mis_datos .form{
+    max-width: 100%;
+}
+
+.cont_mis_datos .cont_dato .label_dato{
+    width: 28%;
+}
+
+.cont_mis_datos .cont_input{
+    width: 59%;
+}
+
+.cont_mis_datos .cont_input fieldset,
+.cont_mis_datos .cont_input fieldset input{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cont_mis_datos .cont_input fieldset{
+    margin: 0 0 20px 0;
+    padding: 0 3px;
+}
+
+.cont_mis_datos .cont_input .cont_calendar{
+    width: 100%;
+}
+
+.container_datos_form,
+.container_datos{
+    overflow: hidden;
+}
+
+.despliega_clave{
+    border-top: 1px solid #f2f2f2;
+    padding-top: 20px;
+}
+
+.despliega_clave .fila{
+    margin: 0 -16px;
+}
+
+.accordion .centro-de-ayuda a::before{
+    height: auto;
+    width: auto;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    display: inline-block;
+    font-size: 12px !important;
+    height: 30px;
+    margin: 0 5px !important;
+    padding: 0;
+}
+
+.listado_disc{
+    list-style: disc;
+    line-height: 1;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.miPlan .down .listado_disc li{
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+.cta_exacta .cont_right{
+    float: left;
+    width: 66%;
+}
+
+.cta_exacta .cont_right .col-50{
+    float: left;
+    width: 49%;
+}
+
+.cta_exacta .cont_right .left-50{
+    margin-right: 2%;
+}
+
+.cta_exacta .cont-columns{
+    overflow: hidden;
+}
+
+.cta_exacta .ul_display{
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.cta_exacta .left-50 .ul_display li:first-child{
+    width: 24px;
+}
+
+.cta_exacta .left-50 .ul_display ul{
+    box-sizing: border-box;
+    float: left;
+}
+
+.cta_exacta .left-50 .ul_display ul:first-child{
+    width: 32%;
+}
+
+.cta_exacta .left-50 .ul_display ul:last-child{
+    width: 62%;
+}
+
+.cta_exacta .ul_display li{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cta_exacta .ul_display li:first-child img{
+    max-width: 100%;
+}
+
+.cta_exacta .ul_display li:first-child 
+
+.cta_exacta .cont_right .pvence{
+    text-align: right;
+}
+
+.cta_exacta .cont_right .destacado_bold{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cta_exacta .cont_right .destacado_bold2{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.cta_exacta .cont_right .globo{
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    background: #f58220;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    max-width: 59%;
+}
+
+.cta_exacta .cont_right .globo .flecha_right{
+    left: -5px;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+}
+
+.cta_exacta .cont_right .globo p{
+    line-height: 18px;
+}
+
+.cta_exacta .cont_right .col-30{
+    float: left;
+    width: 35%;
+}
+
+.cta_exacta .cont_right .col-70{
+    float: left;
+    width: 65%;
+}
+
+.link_celeste{
+    color: #1F97AE;
+}
+
+.cta_exacta .li_bg{
+    background: #ebebeb;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.cta_exacta .li_bg li{
+    display: inline-block;
+    float: left;
+    font-size: 0.8em;
+}
+
+.cta_exacta .li_bg li:first-child{
+    margin-right: 10px;
+    width: 25px;
+}
+
+.cta_exacta .li_bg li:last-child{
+    width: 80%;
+}
+
+.cta_exacta .gris{
+    color: #666;
+    font-size: 0.8em;
+}
+
+.borde-gris{
+    border: 1px solid #f2f2f2;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.cta_exacta .cont_boni{
+    padding-left: 10px;
+}
+
+.cta_exacta .cont_right .middle,
+.cta_exacta .cont_right .right{
+    float: left;
+    width: 48.8%;
+}
+
+.cta_exacta .cont_right .middle{
+    margin-right: 10px;
+}
+
+.cta_exacta .cont_right .right{
+    margin-left: 10px;
+}
+
+.cta_exacta .cont_saldos{
+    color: #444444;
+    padding-right: 0;
+}
+
+.cta_exacta .cont_saldos h2{
+    margin-bottom: 20px;
+}
+
+.cta_exacta .cont_saldos li{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.cta_exacta .cont_saldos li:first-child{
+    width: 40px;
+}
+
+.cta_exacta .cont_saldos li:first-child img{
+    max-width: 100%;
+}
+
+.cta_exacta .cont_saldos li .bold{
+    font-weight: bold;
+}
+
+.cta_exacta .cont_saldos li .bold span{
+    font-size: 1.5em;
+}
+
+.cta_exacta .col-60{
+    float: left;
+    width: 75%;
+}
+
+.cta_exacta .col-40{
+    float: left;
+    width: 25%;
+}
+
+.cta_exacta .cont_saldos .cont_alerta li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cta_exacta .cont_saldos .cont_alerta li:first-child{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cta_exacta .cont_saldos .cont_alerta li p{
+    line-height: 15px;
+}
+
+.cta_exacta .cont_saldos .cont_alerta li p:first-child{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cta_exacta .cont_saldos .cont_alerta ul{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_roja .pdias{
+    background: #da262c;
+}
+
+.cta_exacta .cont_saldos.alerta_padding{
+    padding-right: 24px;
+}
+
+.cta_exacta .cont_saldos .cont_alerta .pdias{
+    -webkit-border-radius: 5px;
+    -moz-border-radius:    5px;
+    border-radius:         5px;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 70px;
+    padding: 2px 0;
+    position: relative;
+    text-align: center;
+}
+
+.cta_exacta .cont_saldos .cont_alerta .pdias span{
+    width: 0;
+    height: 0;
+    border-left:  6px solid transparent;
+    border-right: 6px solid transparent;
+    margin: 0 auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -6px;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_roja .pdias span{
+    border-bottom: 6px solid #da262c;
+}
+
+.cta_exacta .cont_right .cont_saldos .pvence{
+    margin-bottom: 20px;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_naranja .pdias span{
+    border-bottom: 6px solid #f58220;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_naranja .pdias{
+    background: #f58220;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_celeste .pdias span{
+    border-bottom: 6px solid #1f97ae;
+}
+
+.cta_exacta .cont_saldos .cont_alerta.alerta_celeste .pdias{
+    background: #1f97ae;
+}
+
+.cta_exacta .cont_saldos .cont-columns{
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+.cta_exacta .cont_saldos .cont-columns.column_height{
+    min-height: 70px;
+}
+
+.tituloAcordeon{
+    background: #f8f8f8;
+    color: #444;
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.tituloAcordeon img{
+    float: right;
+    padding-top: 5px;
+}
+
+.tituloAcordeon .icon_menos,
+.tituloAcordeon.activo .icon_mas{
+    display: none;
+}
+
+.tituloAcordeon.activo .icon_menos{
+    display: block;
+}
+
+.cta_exacta.siap .cont_saldos h2{
+    margin-bottom: 0;
+}
+
+.cta_exacta.siap .ul_display{
+    margin: 0;
+}
+
+.cta_exacta.siap .ul_display.alerta_inactivo{
+    margin: 20px 0;
+}
+
+.cta_exacta.siap .cont_saldos .cont_alerta.alerta_roja .pdias{
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+
+.cta_exacta.siap .cont_saldos .cont-columns .cont_btns_red .bt-red{
+    display: inline-block;
+}
+
+.cta_exacta.siap .left-50 .cont_saldos .link100 li:first-child{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cta_exacta.siap .cont_boni h2{
+    margin-bottom: 20px;
+}
+
+.cta_exacta.siap .cont_boni .ul_display{
+    line-height: 16px;
+    margin: 5px 0 10px 0;
+}
+
+.cta_exacta.siap .cont_boni .ul_display li:first-child{
+    width: 25px;
+}
+
+.cta_exacta.siap .cont_boni .ul_display li:first-child img{
+    max-width: 100%;
+}
+
+.cta_exacta.siap .cont_right .cont_saldos .pvence{
+    margin-bottom: 0;
+}
+
+.kit_big{
+    overflow: hidden;
+    position: relative;
+}
+
+.cont_kit_fin{
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 66%;
+}
+
+.cont_kit_fin .cabecera_tabla{
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.cont_kit_fin .cabecera_tabla h2{
+    float: left;
+    width: 30%;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera{
+    float: left;
+    width: 70%;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera form{
+    float: left;
+    overflow: hidden;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera .form_fechas{
+    float: right;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera .contdh{
+    float: left;
+    margin-left: 15px;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera .input_date{
+    float: left;
+    position: relative;
+    width: 110px;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera label{
+    float: left;
+    font-size: 0.8em;
+    line-height: 35px;
+    margin: 0 10px 0 0;
+    text-align: right;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera input{
+    padding-right: 20px;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera .input_date img{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.cont_kit_fin .cabecera_tabla .fechas_cabecera .cerrar_tabla{
+    font-size: 0.9em;
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.footer_tabla p{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+.cont_kit_fin .cabecera_tabla .cerrar_mob{
+    display: none;
+}
+
+.cont_kit_fin .acordeonOculto{
+    display: none;
+}
+
+.cont_kit_fin .btn_mostrar{
+    border: 1px solid #f2f2f2;
+    color: #e02e30;
+    display: block;
+    margin-top: 30px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.msje_alert_prep{
+    border: 1px solid #da262c;
+    display: none;
+    padding: 10px;
+}
+
+.msje_alert_prep .cerrar_alerta{
+    display: inline-block;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.msje_alert_prep p{
+    margin-bottom: 20px;
+}
+
+.msje_alert_prep .bt-red{
+    display: inline-block;
+    margin: 0 10px;
+    width: auto;
+}
+
+.acordeonMargin .modD{
+    margin-bottom: 15px;
+}
+
+.mobile .acordeonv2 .show{
+    padding-left: 10px;
+}
+
+.mobile .acordeonv2 .acordeon_right{
+    float: right;
+    text-align: right;
+}
+
+.mobile .acordeonv2 .cont_acciones a{
+    margin: 0 0 0 10px;
+}
+
+.mobile .acordeonv2 ul li{
+    margin-bottom: 8px;
+}
+
+header .down .logo{
+    background: url('../images/logo.png') no-repeat;
+}
+
+.header_movil{
+    margin-bottom: -1px;
+}
+
+.fixed_movil{
+    background: #DA262C;
+    box-sizing: border-box;
+    left: 0;
+    padding: 0 4%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+header .header_movil .logo{
+    display: none;
+}
+
+header .fixed_movil .logo{
+    display: block;
+}
+
+header .down nav ul.mobile.responsive{
+    top: auto;
+}
+
+.cont_contrata.cont_claro_club .btn_contrata,
+.cont_contrata.cont_claro_club{
+    overflow: hidden;
+}
+
+.cont_contrata.cont_claro_club{
+    margin-bottom: 20px;
+}
+
+.cont_contrata.cont_claro_club .btn_contrata div,
+.cont_contrata.cont_claro_club .btn_contrata ul{
+    float: left;
+}
+
+.cont_contrata.cont_claro_club .btn_contrata div{
+    padding-top: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+.cont_contrata.cont_claro_club .btn_contrata ul{
+    width: 70%;
+}
+
+@media screen and (max-width: 1448px) {
+    .container, .alert {
+        box-sizing: border-box;
+        padding: 0 4%;
+    }
+    .alert2{
+        padding: 10px 0 10px 10px;
+    }
+    .cta_exacta .cont-columns{
+        padding-right: 0;
+    }
+    .cta_exacta .cont_boni{
+        padding-left: 0;
+    }
+    .cta_exacta .cont_right .pvence{
+        margin-top: 10px;
+        text-align: left;
+    }
+    .cta_exacta .cont_right .middle{
+        margin-right: 2%;
+        width: 49%;
+    }
+    .cta_exacta .cont_right .right{
+        margin-left: 0;
+        width: 49%;
+    }
+    .cta_exacta .cont_saldos li:first-child{
+        width: 30px;
+    }
+    .cta_exacta .cont_saldos li p{
+        font-size: 0.8em;
+    }
+    .cta_exacta .cont_saldos li .bold span{
+        font-size: 1em;
+    }
+    .cta_exacta .cont_saldos .cont_alerta li:first-child{
+        font-size: 1.3em;
+    }
+    .cta_exacta .cont_saldos .cont_alerta li p:first-child{
+        font-size: 1em;
+    }
+    .cta_exacta .cont_saldos .cont_alerta ul{
+        margin-bottom: 5px;
+    }
+    .cta_exacta .cont_right .cont_saldos .pvence img{
+        width: 15px;
+    }
+    .cta_exacta .cont_right .cont_saldos .pvence{
+        font-size: 0.63em;
+    }
+}
+
+@media screen and (max-width: 1360px) and (min-width: 600px) {
+    .cta_exacta .left-50 .ul_display ul:first-child,
+    .cta_exacta .left-50 .ul_display ul:last-child{
+        float: none;
+        width: 100%;
+    }
+    .cta_exacta .left-50 .ul_display ul:first-child{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1360px){
+    .saldos_disp .col-70,
+    .saldos_disp .col-30{
+        float: none;
+        margin-bottom: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .saldos_disp .col-30{
+        padding-left: 0;
+    }
+    .saldos_disp .col-30 .progress{
+        margin: 0 auto;
+        width: 100px;
+    }
+    .saldos_disp .col-30 .cont_pbar{
+        display: block;
+        text-align: left;
+    }
+    .saldos_disp .col-30 .cont_pbar .pvence{
+        display: block;
+        text-align: left;
+    }
+    .saldos_disp .col-30 .cont_pbar .pvence img{
+        margin-right: 5px;
+    }
+    .saldos_disp .col-30 .pvence{
+        display: none;
+    }
+    .saldos_disp .fila{
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .saldos_disp .col-70 .info-der .msjs div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cta_exacta .cont_right{
+       width: 49%;
+    }
+    .cta_exacta .cont_right .col-30,
+    .cta_exacta .cont_right .col-70{
+        float: none;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .cta_exacta .cont_right .cont-columns .col-30 ul{
+        margin-top: 10px;
+    }
+    .cta_exacta .cont_right .cont-columns .col-30 .bt-red{
+        width: 100%;
+    }
+    /*.cta_exacta .cont_right .middle,
+    .cta_exacta .cont_right .right{
+        margin: 0;
+        width: 100%;
+    }*/
+    .cta_exacta .cont_right.cont_bottom{
+        float: none;
+        width: 100%;
+    }
+    .cta_exacta .cont_right .col-50{
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+    .cta_exacta .cont_right .globo{
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+    .cta_exacta .cont_right .globo .flecha_right{
+        display: none;
+    }
+    .cta_exacta .left-50 .ul_display ul:first-child,
+    .cta_exacta .left-50 .ul_display ul:last-child{
+        width: 100%;
+    }
+    .cta_exacta .left-50 .ul_display ul:first-child{
+        margin-bottom: 10px;
+    }
+    .cont_kit_fin{
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+    .cta_exacta .cont_saldos.alerta_padding{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cont_clave .col-70,
+    .cont_clave .col-30{
+        float: none;
+        width: 100%;
+    }
+    .cont_close{
+        position: static;
+        top: auto;
+    }
+    .cont_carrusel h3,
+    .carrusel_left{
+        float: none;
+        width: 100%;
+    }
+    .cont_carrusel h3{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .consultas.btn_beneficios h1{
+        display: inline-block;
+        float: left;
+    }
+    .consultas.btn_beneficios .div_right{
+        background: none;
+        float: right;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cta_exacta.siap .cont_saldos .cont-columns .cont_btns_red .bt-red{
+        font-size: 0.8em;
+        max-width: 108px;
+    }
+}
+
+@media screen and (max-width: 680px) and (min-width: 600px) {
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera,
+    .cont_kit_fin .cabecera_tabla h2{
+        float: none;
+        width: 100%;
+    }
+    .cont_kit_fin table th{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    aside .panel{
+        top: 0 !important;
+    }
+    .btn_ayuda{
+        display: none !important;
+    }
+    .wrap_lightbox .btn-center{
+        text-align: center;
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .fancybox-wrap{
+        height: 100% !important;
+        left: 0 !important;
+        position: fixed !important;
+        top: 0 !important;
+    }
+    .fancybox-skin,
+    .fancybox-outer,
+    .fancybox-inner{
+        height: 100% !important;
+    }
+    .fancybox-close{
+        background: url('../images/cerrar.png') no-repeat center center #000;
+        display: block;
+        padding: 2px;
+        right: -40px;
+        text-align: center;
+        top: 0;
+    }
+    .fancybox-close:hover{
+        background: url('../images/cerrar.png') no-repeat center center #333;
+    }
+    .wrap_lightbox .row .col-50{
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .cont_lightbox .wrap_lightbox{
+        padding: 10px;
+    }
+    .cont_lightbox .fondo{
+        padding: 10px;
+    }
+    .cont_lightbox .caja_lightbox{
+        padding: 5px;
+    }
+    .cont_lightbox table th,
+    .cont_lightbox table td{
+        padding: 5px;
+    }
+    div.icon_left{
+        float: none;
+        text-align: center;
+    }
+    .btn_ayuda{
+        display: block;
+    }
+    aside{
+        display: block;
+    }
+    aside .panel{
+        height: 93%;
+        left: 0 !important;
+        top: 999px;
+        max-width: 100%;
+        overflow: auto;
+        width: 100%;
+        z-index: 9999;
+    }
+    aside .slide-arrow{
+        display: none;
+    }
+    aside.overlay{
+        display: none !important;
+    }
+    aside .panel > .up,
+    aside .panel > .down,
+    aside .panel > .down .down,
+    aside .panel > .down .tabMenu,
+    aside .panel > .down .tabMod{
+        height: auto;
+    }
+    aside .panel > .down,
+    aside .panel > .down .tabMenu,
+    aside .panel > .down .tabMod,
+    aside .panel > .down .down,
+    aside .panel > .down .down fieldset button{
+        float: none;
+        position: static;
+    }
+    aside .panel > .down{
+        padding-bottom: 10px;
+    }
+    .wrap_lightbox .form_oferta .cont_img{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .wrap_lightbox .form_oferta .cont_img img{
+        width: 120px;
+    }
+    .boleta .up{
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .boleta .up h3,
+    .boleta .up::before{
+        width: 100%;
+    }
+    footer .down{
+        margin-bottom: 36px;
+    }
+    .overflow_h {
+        overflow: hidden;
+    }
+    .datos .down ul li p {
+        min-height: 30px;
+        padding-left: 33px;
+    }
+    .datos .down{
+        padding: 20px 10px;
+    }
+    .cont_error li{
+        display: block;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .cont_lightbox .light_pago .bt-red{
+        width: 100%;
+    }
+    .miPlan .down.modC > div div p{
+        width: 100%;
+    }
+    .cont_carrusel{
+        padding: 10px;
+    }
+    .form_accesos .form_arriba label,
+    .form_accesos .form_arriba input[type=text],
+    .form_accesos .form_arriba select{
+        float: none;
+        width: 100%;
+    }
+    .form_accesos .fila_check ul{
+        margin-bottom: 0;
+    }
+    .form_accesos .fila_check li{
+        float: none;
+        margin-right: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    .form_accesos .fila_check li label {
+        float: left;
+        width: 160px;
+    }
+    .cont_msje_confirm .msje_confirm{
+        width: 440px;
+    }
+    .form_clave_nueva .col-50{
+        margin: 0 0 20px 0;
+        padding: 0 3px;
+        width: 100%;
+    }
+    .despliega_clave .fila{
+        margin: 0;
+    }
+    .form_clave_nueva .cont_fila{
+        margin: 0;
+    }
+    .form .cont_calendar{
+        width: 100%;
+    }
+    .form .cont_calendar{
+        padding: 0 3px;
+    }
+    .form_clave_nueva .fila{
+        margin-bottom: 0;
+    }
+    .form_clave_nueva .label_ancho label{
+        float: none;
+        padding-right: 0;
+        width: 100%;
+    }
+    .form_clave_nueva .label_ancho{
+        margin-bottom: 20px;
+    }
+    .cont_calendar{
+        float: none;
+        width: 100%;
+    }
+    .form_clave_nueva .label_ancho ul li:first-child{
+        margin-right: 40px;
+    }
+    .cont_mis_datos .mas_datos{
+        font-size: 0.8em;
+    }
+    .cont_mis_datos .cont_dato .icon-dato{
+        display: inline-block;
+        float: none;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .cont_mis_datos .cont_dato .label_dato{
+        display: inline-block;
+        float: none;
+        width: auto;
+    }
+    .cont_mis_datos .cont_dato .cont_input{
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .cont_mis_datos .cont_dato li{
+        display: inline-block;
+        float: none;
+    }
+    .form .cont_calendar.error i,
+    .cont_mis_datos .cont_dato li fieldset.error i{
+        right: -1px;
+    }
+    .cont_mis_datos .cont_dato .leyend ul li{
+        display: block;
+        padding: 4px 0 4px 20px;
+    }
+    .cta_exacta .cont_saldos li:first-child{
+        width: 22px;
+    }
+    
+    .cta_exacta .ul_display {
+        margin: 0px 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cta_exacta .cont_right,
+    .cta_exacta .cont_right .middle,
+    .cta_exacta .cont_right .right{
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .cta_exacta .ul_display li:first-child{
+        width: 28px;
+    }
+    .cta_exacta .ul_display li:first-child img{
+        max-width: 100%;
+    }
+    .cta_exacta .cont_right .destacado_bold2{
+        font-size: 1em;
+    }
+    .cta_exacta .cont_right .globo p{
+        font-size: 0.8em;
+        line-height: 14px;
+    }
+    .contAcordeon{
+        display: none;
+    }
+    .tituloAcordeon{
+        display: block;
+    }
+    .container.cta_exacta{
+        margin-bottom: 40px;
+    }
+    .cta_exacta .left-50 .cont-columns{
+        margin-bottom: 20px;
+    }
+    .cta_exacta.siap .left-50 .cont-columns{
+        margin-bottom: 5px;
+    }
+    .cta_exacta.siap .cont_saldos .cont-columns .cont_btns_red{
+        text-align: center;
+    }
+    .cont_kit_fin{
+        position: static;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera{
+        float: none;
+        width: 100%;
+    }
+    .cont_kit_fin .cabecera_tabla h2{
+        width: auto;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .form_fechas{
+        float: none;
+    }
+    .cont_kit_fin .cabecera_tabla .cerrar_mob{
+        display: inline-block;
+        float: right;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera label{
+        float: none;
+        margin: 0;
+        text-align: left;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .input_date{
+        float: none;
+        width: 100%;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .contdh{
+        margin-left: 0;
+        width: 48%;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .contdh:first-child{
+        padding-right: 5px;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .contdh:last-child{
+        padding-left: 5px;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera .cerrar_tabla{
+        display: none;
+    }
+    .cont_kit_fin .cabecera_tabla .fechas_cabecera form{
+        float: none;
+        width: 100%;
+    }
+    .cont_kit_fin .paginator{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cont_msje_confirm .msje_confirm{
+        font-size: 1.2em;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .cont_msje_confirm .msje_confirm li{
+        box-sizing: border-box;
+        line-height: normal;
+        width: auto;
+    }
+    .cont_msje_confirm .msje_confirm .li_margin{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .panel table tr .cont_stars{
+        display: none;
+    }
+    .boletas_rojo{
+        display:none;
+    }
+    .cta_exacta .cont_right .globo{
+        max-width: 112px;
+    }
+    .btn_contrata{
+        font-size: 0.7em;
+    }
+}
+.sin_bordes .down.modC div {
+    border: none;
+}
+
+.sin_bordes .up, .sin_bordes li {
+    border: none;
+}
+
+.modList.sin_bordes li {
+    height: 15px;
+    list-style: disc !important;
+}

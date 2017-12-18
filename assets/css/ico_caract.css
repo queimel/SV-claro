@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "havas-claro-guia-iconos";
+  src:url("../fonts/havas-claro-guia-iconos.eot");
+  src:url("../fonts/havas-claro-guia-iconos.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/havas-claro-guia-iconos.woff") format("woff"),
+    url("../fonts/havas-claro-guia-iconos.ttf") format("truetype"),
+    url("../fonts/havas-claro-guia-iconos.svg#havas-claro-guia-iconos") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "havas-claro-guia-iconos" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "havas-claro-guia-iconos" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-catalogo-andriod:before {
+  content: "\e102";
+}
+.icon-catalogo-bateria:before {
+  content: "\e103";
+}
+.icon-catalogo-camara:before {
+  content: "\e104";
+}
+.icon-catalogo-chip:before {
+  content: "\e105";
+}
+.icon-catalogo-conexion:before {
+  content: "\e106";
+}
+.icon-catalogo-ios:before {
+  content: "\e107";
+}
+.icon-catalogo-memoria:before {
+  content: "\e108";
+}
+.icon-catalogo-pantalla:before {
+  content: "\e109";
+}
+.icon-catalogo-procesador:before {
+  content: "\e10a";
+}
+.icon-movil-2:before {
+  content: "\e10b";
+}

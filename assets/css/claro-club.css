@@ -1,0 +1,431 @@
+/*______________HAVAS MEDIA 2016 - UI Markup STYLE_____________*/
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,700italic,900,900italic');
+article,
+\:article,
+aside,
+\:aside,
+details,
+\:details,
+figcaption,
+\:figcaption,
+figure,
+\:figure,
+footer,
+\:footer,
+header,
+\:header,
+hgroup,
+\:hgroup,
+main,
+\:main,
+menu,
+\:menu,
+nav,
+\:nav,
+section,
+\:section,
+summary,
+\:summary {
+    display: block;
+}
+
+.claro-club *, .claro-club *:before, .claro-club *:after {
+  box-sizing: border-box;
+}
+
+.claro-club {
+    font-family: 'Roboto', sans-serif;
+}
+
+.claro-club .menu {
+    border: 1px solid #ECECEC;
+    overflow: hidden;
+    margin-top: 60px;
+    box-shadow: 0px 1px 1px rgb(228, 228, 228);
+}
+
+.claro-club .menu li {
+    border-left: 1px solid #ECECEC;
+    float: left;
+    width: 11.11%;
+}
+
+.claro-club .menu li.activo {
+    background-color: #1f97ae;
+}
+
+.claro-club .menu li.activo a {
+    color: #fff;
+}
+
+.claro-club .menu li.destacados {
+    border: 0;
+}
+
+.claro-club .menu li a {
+    text-align: center;
+    display: block;
+    min-height: 94px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #838383;
+    line-height: 14px;
+    padding: 8px 3px 8px;
+    box-sizing: border-box;
+}
+
+.claro-club .menu li.activo a:before {
+    content: '';
+    display: block;
+    line-height: 0.8;
+    padding-bottom: 5px;
+    width: 97px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.claro-club .menu li a:before {
+    content: '';
+    display: block;
+    line-height: 0.8;
+    padding-bottom: 5px;
+    width: 97px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.claro-club .menu li.destacados a:before {
+    background: url('../images/estrella.png') no-repeat center;
+}
+
+.claro-club .menu li.belleza a:before {
+    background: url('../images/belleza.png') no-repeat center;
+}
+
+.claro-club .menu li.cursos a:before {
+    background: url('../images/cursos.png') no-repeat center;
+}
+
+.claro-club .menu li.entretencion a:before {
+    background: url('../images/entretencion.png') no-repeat center;
+}
+
+.claro-club .menu li.gastronomia a:before {
+    background: url('../images/gastronomia.png') no-repeat center;
+}
+
+.claro-club .menu li.tiempo-libre a:before {
+    background: url('../images/tiempo-libre.png') no-repeat center;
+}
+
+.claro-club .menu li.tiendas a:before {
+    background: url('../images/tiendas.png') no-repeat center;
+}
+
+.claro-club .menu li.servicios a:before {
+    background: url('../images/servicios.png') no-repeat center;
+}
+
+.claro-club .menu li.viajes a:before {
+    background: url('../images/viajes.png') no-repeat center;
+}
+
+.claro-club .menu li.activo a:before {
+    background: url('../images/estrella_white.png') no-repeat center;
+}
+
+.claro-club .menu li.belleza.activo a:before {
+    background: url('../images/belleza_white.png') no-repeat center;
+}
+
+.claro-club .menu li.cursos.activo a:before {
+    background: url('../images/cursos_white.png') no-repeat center;
+}
+
+.claro-club .menu li.entretencion.activo a:before {
+    background: url('../images/entretencion_white.png') no-repeat center;
+}
+
+.claro-club .menu li.gastronomia.activo a:before {
+    background: url('../images/gastronomia_white.png') no-repeat center;
+}
+
+.claro-club .menu li.tiempo-libre.activo a:before {
+    background: url('../images/tiempo-libre_white.png') no-repeat center;
+}
+
+.claro-club .menu li.tiendas.activo a:before {
+    background: url('../images/tiendas_white.png') no-repeat center;
+}
+
+.claro-club .menu li.servicios.activo a:before {
+    background: url('../images/servicios_white.png') no-repeat center;
+}
+
+.claro-club .menu li.viajes.activo a:before {
+    background: url('../images/viajes_white.png') no-repeat center;
+}
+
+.claro-club .beneficios {
+    margin: 20px -1%;
+    overflow: hidden;
+}
+
+.claro-club .beneficios > section {
+    display: none;
+}
+
+.claro-club .beneficios > section#destacados-club {
+    display: block;
+}
+
+.claro-club .beneficios a {
+    display: block;
+    float: left;
+    margin: 0 1% 20px;
+    width: 48%;
+}
+
+.claro-club .beneficios a:hover article {
+    box-shadow: 0px 1px 7px rgb(218, 218, 218);
+    background-color: #f6f6f6;
+}
+
+.claro-club .beneficios article {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 1px 2px rgb(228, 228, 228);
+    transition: all 300ms ease-in;
+}
+
+.claro-club .beneficios article:before {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d02e10;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.claro-club .beneficios article.belleza:before {
+    content: "Belleza & Wellness";
+}
+
+.claro-club .beneficios article.cursos:before {
+    content: "Cursos";
+}
+
+.claro-club .beneficios article.entretencion:before {
+    content: "Entretención";
+}
+
+.claro-club .beneficios article.gastronomia:before {
+    content: "Gastronomía";
+}
+
+.claro-club .beneficios article.tiempo-libre:before {
+    content: "Tiempo libre";
+}
+
+.claro-club .beneficios article.tiendas:before {
+    content: "Tiendas";
+}
+
+.claro-club .beneficios article.servicios:before {
+    content: "Servicios";
+}
+
+.claro-club .beneficios article.viajes:before {
+    content: "Viajes";
+}
+
+.claro-club .beneficios article .img {
+    float: left;
+    width: 34%;
+    border-right: 1px solid #E8E8E8;
+}
+
+.claro-club .beneficios article .img img {
+    height: auto;
+    max-width: 100%;
+}
+
+.claro-club .beneficios article .info {
+    float: left;
+    padding: 30px 10px 10px;
+    width: 65%;
+}
+
+.claro-club .beneficios article .info p {
+    line-height: 1.4;
+    color: #333;
+    overflow: hidden;
+}
+
+.claro-club .beneficios article .info span {
+    font-size: .85em;
+    font-weight: 600;
+    color: #999;
+}
+
+.claro-club .puntos {
+    background: url('../images/bg.jpg') no-repeat center top;
+    padding: 80px 0;
+    min-height: 300px;
+    margin-top: 40px;
+}
+
+.claro-club .puntos h2 {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.claro-club .puntos h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.claro-club .puntos ul {
+    text-align: center;
+    margin: 80px 0 70px;
+}
+
+.claro-club .puntos ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.claro-club .puntos ul li img {
+    width: 73px;
+    height: 73px;
+    display: block;
+    margin: 0 auto;
+}
+
+.claro-club .puntos ul li span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+    display: block;
+}
+
+.claro-club .puntos a {
+    background-color: #1f97ae;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+    transition: all 300ms ease-in;
+}
+
+.claro-club .puntos a:hover {
+    background-color: #1591A8;
+    box-shadow: 0px 0px 4px #1591A8;
+    transition: all 300ms ease-in;
+}
+
+.claro-club .beneficios article .info p {
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.claro-club .beneficios article .info span {
+    font-size: .85em;
+    font-weight: 500;
+    color: #999;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 640px) and (max-width: 960px){
+    .claro-club .beneficios article .img{
+        border-right: 0 none;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .claro-club .beneficios article .info {
+        float: none;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .claro-club .menu li{
+        float: none;
+        width: 100%;
+    }
+    .claro-club .menu li.destacados a:before,
+    .claro-club .menu li.belleza a:before,
+    .claro-club .menu li.cursos a:before,
+    .claro-club .menu li.entretencion a:before,
+    .claro-club .menu li.gastronomia a:before,
+    .claro-club .menu li.tiempo-libre a:before,
+    .claro-club .menu li.tiendas a:before,
+    .claro-club .menu li.servicios a:before,
+    .claro-club .menu li.viajes a:before,
+    .claro-club .menu li.activo a:before,
+    .claro-club .menu li.belleza.activo a:before,
+    .claro-club .menu li.cursos.activo a:before,
+    .claro-club .menu li.entretencion.activo a:before,
+    .claro-club .menu li.gastronomia.activo a:before,
+    .claro-club .menu li.tiempo-libre.activo a:before,
+    .claro-club .menu li.tiendas.activo a:before,
+    .claro-club .menu li.servicios.activo a:before,
+    .claro-club .menu li.viajes.activo a:before{
+        background: none;
+    }
+    .claro-club .menu li.activo a::before,
+    .claro-club .menu li a::before{
+        height: 0;
+        width: 0;
+    }
+    .claro-club .menu li a{
+        min-height: 0;
+    }
+    .claro-club .menu{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .claro-club .beneficios a{
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .claro-club .beneficios article{
+        float: none;
+    }
+    .claro-club .beneficios article .img{
+        border-right: 0 none;
+    }
+    .claro-club .beneficios article .info{
+        border-left: 1px solid #e8e8e8;
+    }
+}

@@ -1,9 +1,9 @@
-@import 'reset.scss';
+/*@import 'reset.scss';
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 @import 'header.scss';
 @import 'footer.scss';
-@import 'mq.scss';
+@import 'mq.scss';*/
 @import 'grid.scss';
 @import 'variables.scss';
 
@@ -48,11 +48,12 @@ body {
     height: 375px;
     position: relative;
     margin-bottom: 40px;
+    overflow: hidden;
 
     @media #{ $screen-xs} {
        height: 346px;
        background: url('../img/big-banner-mobile.jpg') center top;
-       background-size: auto 100%;
+       background-size: cover;
     }
     h1{
         font-size: 35px;

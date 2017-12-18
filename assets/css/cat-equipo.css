@@ -1,0 +1,2574 @@
+
+
+.cat-content .magazineOne {
+    overflow: hidden;
+    /*margin-bottom: 20px;*/
+}
+
+.cat-content .magazineOne .up {
+    background: url(../images/banner-cat-equipo.png) no-repeat right;
+    box-sizing: border-box;
+    padding: 30px 3%;
+    height: 350px;
+}
+
+.cat-content .magazineOne .login-sp {
+    background: url(../images/bg-magazine-sin-productos-D.jpg) no-repeat right;
+    box-sizing: border-box;
+    padding: 40px 3%;
+    height: /*324px*/240px;
+}
+
+
+.cat-content .magazineOne .up p span{
+    color:#da262c;
+}
+
+.cat-content .magazineOne .up .left h3 {
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    color: #da262c;
+}
+
+.cat-content .magazineOne .up .left p {
+    font-weight: 100;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1px 10px;
+    margin-bottom: 6px;
+    display: inline-block;
+    max-width: 590px;
+}
+
+
+.cat-content .magazineOne .login-sp .left p {
+    font-weight: 100;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1px 10px;
+    margin-bottom: 6px;
+    display: inline-block;
+    max-width: 590px;
+    width: auto;
+}
+
+.cat-content .magazineOne .up .left-dos {
+    padding: 1px 10px;
+    margin-top: 40px;
+}
+
+.cat-content .magazineOne .up .left-dos p {
+    font-size: .95em;
+    color: #666;
+}
+
+.cat-content .magazineOne .up .left-dos .link {
+    font-size: 1em;
+}
+
+.catalogo_equipo .filtros {
+    background: #f2f2f2;
+    display: block;
+    padding: 0px 0 20px 0;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    padding: 0 20px 0 10px;
+    width: 170px;
+}
+
+.catalogo_equipo .dropdown dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown li {
+    margin-bottom: 5px;
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown p.multiSel:after {
+    border-left: 1px solid #d4d4d4;
+    color: #dc262c;
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    height: 31px;
+    margin-left: 152px;
+    margin-top: -34px;
+    padding-left: 13px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.catalogo_equipo .dropdown2 {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown2 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown2 ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown2 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown2 a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown2 dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    padding: 0 20px 0 10px;
+    width: 170px;
+}
+
+.catalogo_equipo .dropdown2 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown2 dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown2 li {
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown2 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown2 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown2 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown2 dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown2 p.multiSel:after {
+    border-left: 1px solid #d4d4d4;
+    color: #dc262c;
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    height: 31px;
+    margin-left: 152px;
+    margin-top: -34px;
+    padding-left: 13px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.catalogo_equipo .dropdown2 {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown6 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown3 {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown3 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown3 ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown3 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown3 a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown3 dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    padding: 0 20px 0 10px;
+    width: 170px;
+}
+
+.catalogo_equipo .dropdown3 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown3 dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown3 li {
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown3 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown3 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown3 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown3 dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown3 p.multiSel:after {
+    border-left: 1px solid #d4d4d4;
+    color: #dc262c;
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    height: 31px;
+    margin-left: 152px;
+    margin-top: -34px;
+    padding-left: 13px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.catalogo_equipo .dropdown4 {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown4 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown4 ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown4 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown4 a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown4 dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    padding: 0 20px 0 10px;
+    width: 170px;
+}
+
+.catalogo_equipo .dropdown4 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown4 dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown4 li {
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown4 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown4 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown4 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown4 dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown4 p.multiSel:after {
+    border-left: 1px solid #d4d4d4;
+    color: #dc262c;
+    content: "\f0d7";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    height: 30px;
+    margin-left: 152px;
+    margin-top: -34px;
+    padding-left: 13px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.catalogo_equipo .dropdown5 {
+    display: inline-block;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .dropdown5 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown5 ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown5 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown5 a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown5 dt a {
+    color: #333;
+    display: block;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    padding: 8px 20px 5px 10px;
+    width: 170px;
+}
+
+.catalogo_equipo .dropdown5 span.hida:after {
+    content: "\f160";
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.catalogo_equipo li a:hover,
+.dropdown5:hover {
+    background: #fff;
+    color: #1F97AE;
+}
+
+.catalogo_equipo li a:active{
+    color: #1F97AE;
+}
+
+.catalogo_equipo .dropdown5 span:hover {
+    color: #1F97AE;
+}
+
+.catalogo_equipo .dropdown5 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 1.2em;
+    padding: 0 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown5 dd ul {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 9px -4px #b7b7b7;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown5 li {
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown5 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown5 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown5 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown5 dd ul li a:hover {
+    background-color: #fff;
+}
+/*MENU RESPONSIVO*/
+
+.catalogo_equipo .menu_responsivo .side-slide h4 {
+    color: #333;
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.catalogo_equipo .dropdown6 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown6 dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown6 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 20px;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown6 dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    font-size: .9em;
+    height: 100px;
+    height: 340px;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown6 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown6 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown6 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown6 dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown6 .filtro_uno h4 {
+    color: #333;
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.catalogo_equipo .dropdown6 .filtro_dos h4 {
+    color: #333;
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.catalogo_equipo .dropdown6 .filtro_tres h4 {
+    color: #333;
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.catalogo_equipo .dropdown6 span.nav01 {
+    color: #333;
+    display: block;
+    float: right;
+    font-size: .8em;
+    font-weight: 700;
+    padding: 10px;
+    text-align: right;
+    width: 93%;
+    cursor: pointer;
+}
+
+.catalogo_equipo .dropdown6 a.big-green.nav01 {
+    background-color: #1197af;
+}
+
+.catalogo_equipo .dropdown6 a.big-green.nav01 {
+    background-image: none;
+    border-radius: 2px;
+    border: none;
+    color: #fff !important;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    margin: 4%;
+    padding: 15px 15px 13px;
+    text-align: center;
+    width: 92%;
+    height: 40px;
+}
+
+.catalogo_equipo .dropdown6 nav.side-slide {
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    height: auto;
+    left: -285px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 285px;
+    z-index: 999;
+    margin-top: 20px;
+}
+
+.catalogo_equipo .dropdown6 ul.filtro_uno {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown6 ul.filtro_dos {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown6 ul.filtro_tres {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown6 nav.side-slide a {
+    color: #6d6d6d;
+    display: inline-block;
+    font-size: .7em;
+    font-weight: 500;
+    padding-left: 9px;
+    padding-top: 12px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.catalogo_equipo .dropdown6 .btn01 {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown6 .btn01 a.slide_menu {
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9em;
+    margin-left: 10px;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown6 nav.side-slide li {
+    border: 1px solid #e2e2e2;
+    display: block;
+    float: left;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    max-width: 125px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown7 dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogo_equipo .dropdown7 ul {
+    margin: -1px 0 0 0;
+}
+
+.catalogo_equipo .dropdown7 dd {
+    position: relative;
+}
+
+.catalogo_equipo .dropdown7 a,
+.dropdown a:visited {
+    color: #6d6d6d;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+}
+
+.catalogo_equipo .dropdown7 dt a {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    display: block;
+    height: 40px;
+    line-height: 24px;
+    min-height: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.catalogo_equipo .dropdown7 dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-left: 10px;
+    padding: 8px 3px 2px 0;
+}
+
+.catalogo_equipo .dropdown7 dd ul {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    color: #6d6d6d;
+    font-size: .8em;
+    height: auto;
+    left: 0px;
+    list-style: none;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.catalogo_equipo .dropdown7 li {
+    margin-left: 10px;
+    padding: 10px 0 0 0;
+}
+
+.catalogo_equipo .dropdown7 input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.catalogo_equipo .dropdown7 span.value {
+    display: none;
+}
+
+.catalogo_equipo .dropdown7 dd ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.catalogo_equipo .dropdown7 dd ul li a:hover {
+    background-color: #fff;
+}
+
+.catalogo_equipo .dropdown7 .fa-caret-down:before {
+    content: "\f0d7";
+    display: block;
+    padding-left: 4px;
+    padding-top: 12px;
+}
+/*CHECKBOX RESPONSIVO */
+
+.catalogo_equipo .menu_responsivo .filtro_uno span {
+    margin-left: 10px;
+    padding-top: 7px;
+    display: block;
+    font-size: .8em;
+    color: #6d6d6d;
+}
+
+.catalogo_equipo .menu_responsivo .filtro_dos span {
+    margin-left: 10px;
+    padding-top: 7px;
+    display: block;
+    font-size: .8em;
+    color: #6d6d6d;
+}
+
+.catalogo_equipo .menu_responsivo .filtro_tres span {
+    margin-left: 10px;
+    padding-top: 7px;
+    display: block;
+    font-size: .8em;
+    color: #6d6d6d;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide .checkbox-label {
+    display: inline-block;
+    font-size: .9em;
+    line-height: 1.4em;
+    color: #333;
+    position: relative;
+    width: 100%;
+    height: 36px;
+    outline: none;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide .checkbox-label:hover {
+    cursor: pointer;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide input[type="checkbox"].checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide input[type="checkbox"] + .checkbox-label:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    color: #dadada;
+    font-size: 1em;
+    background: #fff;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    margin-right: 5px;
+    margin-top: -20px;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide input[type="checkbox"]:checked + .checkbox-label:after {
+    content: "\f00c";
+    color: #1f97ae;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide input[type="checkbox"]:focus + .checkbox-label:after {
+    outline: none;
+    border-color: #3498db;
+}
+
+.catalogo_equipo .menu_responsivo .side-slide input[type="checkbox"] + .checkbox-label:empty:after {
+    margin-right: 0;
+}
+/*FIN CHECKBOX RESPONSIVO*/
+/*FIN MENU RESPONSIVO*/
+
+.catalogo_equipo article.equipo {
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    box-sizing: content-box;
+    display: inline-block;
+    height: auto;
+    margin: 20px 1% 20px 1%;
+    max-width: 22%;
+    width: 100%;
+}
+
+.catalogo_equipo .equipo_Cont span {
+    display: block;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.catalogo_equipo .equipo_Cont i {
+    color: #6d6d6d;
+    display: block;
+    font-size: 1.2em;
+    font-style:normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.catalogo_equipo img.imagen_equipo {
+    display: block;
+    margin: 0 auto;
+    height: 130px;
+    width: auto;
+
+}
+
+.catalogo_equipo .link_btn {
+    color: #1F97AE !important;
+    cursor: pointer;
+    display: block;
+    font-size: .9em !important;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    position: relative;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.catalogo_equipo .plan_detalle {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .plan_detalle p {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.catalogo_equipo .plan_detalle i {
+    display: block;
+    font-size: .8em;
+    font-style: normal;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.catalogo_equipo .plan_detalle span {
+    color: #DA262C;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.catalogo_equipo .prepago_detalle {
+    display: block;
+    float: left;
+    width: 49%;
+}
+
+.catalogo_equipo .caract_list {
+    border-bottom: 1px solid #dadada;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.catalogo_equipo .caract_list li {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.catalogo_equipo .caract_list ul {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.catalogo_equipo .caract_list img {
+    height: auto;
+    max-width: 30px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.catalogo_equipo .btr_tellamamos {
+    border-radius: 2px;
+    background-color: #1F97AE;
+    display: block;
+    font-size: .8em;
+    margin: 0 auto 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 120px;
+    color: #fff;
+}
+
+.catalogo_equipo .btr-tellamamos-red {
+    border-radius: 2px;
+    background-color: #dc262c;
+    display: block;
+    font-size: .8em;
+    margin: 0 auto 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 120px;
+    color: #fff;
+}
+
+.catalogo_equipo .btr_comprar {
+    background-color: #1F97AE;
+    border-radius: 2px;
+    border: 1px solid #1F97AE;
+    color: #fff;
+    display: block;
+    font-size: .8em;
+    margin: 10px 10px 10px 13px;
+    max-width: 100%;
+    padding: 10px 10px 10px 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.catalogo_equipo .label {
+    display: block;
+    position: relative;
+    float: right;
+    bottom: 23px;
+    right: 40px;
+}
+
+.catalogo_equipo .label img {
+    position: absolute;
+}
+
+.catalogo_equipo #return-to-top {
+    background: #1f97ae;
+    bottom: 40px;
+    cursor: pointer;
+    display: block;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 40px;
+    text-decoration: none;
+    width: 40px;
+}
+
+.catalogo_equipo #return-to-top i {
+    color: #fff;
+    font-size: 1.5em;
+    left: 12px;
+    margin: 0;
+    position: relative;
+    top: 5px;
+}
+
+.catalogo_equipo #return-to-top:hover {
+    background: #1f97ae;
+}
+
+.catalogo_equipo #return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/*INICIO ESTILOS DE CHECKBOX*/
+
+.catalogo_equipo .label--checkbox {
+    cursor: pointer;
+    margin: 0.2em;
+    position: relative;
+}
+
+.catalogo_equipo .checkbox {
+    cursor: pointer;
+    margin: 0 1em 0 0;
+    position: relative;
+}
+
+.catalogo_equipo .checkbox:before {
+    transform: rotate(-45deg) scale(0, 0);
+    content: "";
+    position: absolute;
+    left: .4em;
+    top: .2em;
+    z-index: 1;
+    width: 0.5em;
+    height: 0.2em;
+    border: 2px solid #1f97ae;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.catalogo_equipo .checkbox:checked:before {
+    -webkit-transform: rotate(-45deg) scale(1, 1);
+    -moz-transform: rotate(-45deg) scale(1, 1);
+    -ms-transform: rotate(-45deg) scale(1, 1);
+    -o-transform: rotate(-45deg) scale(1, 1);
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.catalogo_equipo .checkbox:after {
+    background: #fff;
+    border: 2px solid #f2f2f2;
+    content: "";
+    cursor: pointer;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: -0.125em;
+    width: 12px;
+}
+/*FIN ESTILOS DE CHECKBOX*/
+
+.catalogo_equipo select.slector-num {
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: .8em;
+    color: #6d6d6d;
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+    height: 40px;
+}
+
+.catalogo_equipo .selecc-number p {
+    display: inline-block;
+    float: left;
+    padding-top: 20px;
+    color: #6d6d6d;
+    margin-left: 1%;
+}
+
+.catalogo_equipo .list-slector-num {
+    width: 100%;
+    max-width: 720px;
+    display: block;
+    overflow: hidden;
+    margin: 0px 1% 0px 1%;
+}
+
+.catalogo_equipo .list-slector-num li {
+    width: 100%;
+    max-width: 360px;
+    display: block;
+    float: left;
+    font-size: .8em;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.catalogo_equipo span.plan-ico {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.catalogo_equipo span.plan-ico:before {
+    content: url(../images/plan-ico.png);
+    width: 32px;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: -5px;
+}
+
+.catalogo_equipo span.fecha-ico {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.catalogo_equipo span.fecha-ico:before {
+    content: url(../images/fecha-ico.png);
+    width: 32px;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: -5px;
+}
+
+.catalogo_equipo span.model-ico {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.catalogo_equipo span.model-ico:before {
+    content: url(../images/model-ico.png);
+    width: 32px;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: -5px;
+}
+
+
+
+.catalogo_equipo span.arriendo-ico:before {
+    content: url(../images/arriendo-ico.png);
+    width: 32px;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: -5px;
+}
+/* FIN ESTILOS INDEX*/
+/*INICIO DETALLE EQUIPO */
+
+.catalogo_equipo section.detalle-equipo {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.catalogo_equipo article.equipo-model {
+    width: 31%;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 1%;
+}
+
+.catalogo_equipo article.equipo-model3 {
+    width: 31%;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 1%;
+}
+
+.catalogo_equipo .product--image {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-right: 1px solid #efefef;
+    text-align: center;
+}
+
+.catalogo_equipo img.display-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    width: 100%;
+    min-height: 290px;
+}
+
+.catalogo_equipo .icon-images ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.catalogo_equipo .icon-images {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.catalogo_equipo .icon-images li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0% 20px 3%;
+    width: 60px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    max-height: 60px;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.catalogo_equipo .product--image .icon-images img {
+    width: 90%;
+    max-width: 100%;
+    padding: 4px;
+    height: auto;
+    text-align: center;
+}
+
+.catalogo_equipo .product--image h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.catalogo_equipo .product--image b {
+    color: #DA262C;
+    font-weight: 300;
+}
+
+.catalogo_equipo .icon-images i.fa.fa-angle-left {
+    margin-top: 40px;
+    position: absolute;
+    font-size: 1.8em;
+    color: #e5e5e5;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.catalogo_equipo .icon-images i.fa.fa-angle-right {
+    margin-top: 40px;
+    position: absolute;
+    font-size: 1.8em;
+    color: #e5e5e5;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.catalogo_equipo .product--image a.link.ico {
+    margin-bottom: 20px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 154px;
+    min-height: 80px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.catalogo_equipo .detalle_caracteristicas span {
+    display: block;
+    color: #6d6d6d;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.catalogo_equipo .detalle_caracteristicas h3 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.catalogo_equipo .pre-equi span {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400 !important;
+    color: #333 !important;
+}
+
+.catalogo_equipo .pre-equi h2 {
+    text-align: center;
+    font-size: 3.3em;
+    font-weight: 600;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.pantalla:before {
+    color: #1f97ae;
+    content: "\e109";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.camara:before {
+    color: #1f97ae;
+    content: "\e104";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.memoria:before {
+    color: #1f97ae;
+    content: "\e108";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.procesador:before {
+    color: #1f97ae;
+    content: "\e10a";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.sistema_operativo:before {
+    color: #1f97ae;
+    content: "\e102";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.sim:before {
+    color: #1f97ae;
+    content: "\e105";
+    display: block;
+    float: left;
+    font-family: "havas-claro-guia-iconos" !important;
+    font-size: 35px;
+}
+
+.catalogo_equipo .detalle_caracteristicas li.cuatrog:before {
+    margin-left: 20%;
+}
+
+.catalogo_equipo .detalle_caracteristicas i {
+    font-size: .7em;
+    color: #6d6d6d;
+    display: block;
+}
+
+.catalogo_equipo .caract_list_otras h3 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.catalogo_equipo .caract_list_otras b {
+    color: #DA262C;
+    font-weight: 300;
+}
+
+.catalogo_equipo .caract_list_otras li:before {
+    color: rgb(218, 38, 44);
+    content: "●";
+    display: block;
+    font-size: 0.7em;
+    margin-bottom: -12px;
+    margin-left: -14px;
+    position: relative;
+    top: 6px;
+}
+
+.catalogo_equipo .caract_list_otras li {
+    font-size: .8em;
+    line-height: 1.7;
+    color: #6d6d6d;
+    margin-left: 14px;
+}
+
+.catalogo_equipo .etiquet-img li {
+    display: block;
+    float: left;
+    margin: 2%;
+    padding: 5px;
+    max-width: 70px;
+    width: 100%;
+}
+
+.catalogo_equipo .etiquet-img li {
+    display: block;
+    float: left;
+    margin: 20px 10px 20px 0px;
+    width: 100%;
+}
+
+.catalogo_equipo .etiquet-img img {
+    width: 100%;
+}
+
+.catalogo_equipo .border-equipo {
+    border: 1px solid #f1f1f1;
+    margin: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+.catalogo_equipo section.frecuencia {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.catalogo_equipo .frecuencia table {
+    width: 100%;
+    max-width: 960px;
+    border-collapse: collapse;
+    border: none;
+    margin: 0 auto 40px auto;
+}
+
+.catalogo_equipo .frecuencia h3 {
+    margin: 40px auto 40px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 50%;
+    display: block;
+}
+
+.catalogo_equipo .table-frecuencia2 h3 {
+    margin: 40px auto 40px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 50%;
+    display: block;
+}
+
+.catalogo_equipo .table-frecuencia2 h3 {
+    margin: 40px auto 40px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 50%;
+    display: block;
+}
+
+.catalogo_equipo .frecuencia b {
+    font-weight: 400;
+    color: #DA262C;
+}
+
+.catalogo_equipo .table-frecuencia2 b {
+    font-weight: 400;
+    color: #DA262C;
+}
+
+.catalogo_equipo .frecuencia th {
+    color: #6d6d6d;
+    font-weight: 500;
+    text-align: center;
+}
+
+.catalogo_equipo .frecuencia td,
+th {
+    padding: 3px;
+    background-color: transparent;
+    text-align: center;
+    font-size: .8em;
+    width: 225px;
+}
+
+.catalogo_equipo .frecuencia tr {
+    border-top: 1px solid #dedede;
+    border-bottom: none;
+}
+
+.catalogo_equipo .frecuencia span.telco {
+    display: block;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.catalogo_equipo .frecuencia td.top-title strong {
+    display: block;
+}
+
+.catalogo_equipo .frecuencia section.table-frecuencia {
+    width: 100%;
+    overflow: hidden;
+}
+
+.catalogo_equipo .frecuencia section.table-frecuencia2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.catalogo_equipo .frecuencia .table-frecuencia th b {
+    display: block;
+}
+
+.catalogo_equipo .frecuencia .table-frecuencia2 th b {
+    display: block;
+}
+
+.catalogo_equipo .frecuencia .top-title span b {
+    display: block;
+    line-height: 1.5;
+}
+
+.catalogo_equipo .frecuencia span.red-sin-des {
+    max-width: 190px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .frecuencia .red-sin-des img {
+    width: 100%;
+}
+
+.catalogo_equipo .frecuencia td.red-sin-des2 {
+    max-width: 190px;
+    width: 100%;
+    display: block;
+    float: right;
+}
+
+.catalogo_equipo .frecuencia .red-sin-des2 img {
+    width: 100%;
+}
+
+.catalogo_equipo .frecuencia .le-red-soc-sin li {
+    list-style: none;
+    font-size: .9em;
+    line-height: 1.5;
+    font-weight: 300;
+    color: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: normal;
+    display: block;
+}
+
+.catalogo_equipo .frecuencia .le-red-soc-sin li:before {
+    content: "•";
+    padding-right: 10px;
+    color: #EF3829;
+    float: left;
+}
+
+.catalogo_equipo .frecuencia span.plan-cat {
+    display: block;
+    color: #DA262C;
+    font-size: 1.3em;
+    min-height: 40px;
+}
+
+.catalogo_equipo .frecuencia span.plan-cat2 {
+    display: block;
+    color: #1F97AE;
+    font-size: 1.3em;
+    min-height: 40px;
+}
+
+.catalogo_equipo .frecuencia span.plan-cat3 {
+    display: block;
+    color: #F58220;
+    font-size: 1.3em;
+    min-height: 40px;
+}
+
+.catalogo_equipo .frecuencia .title-cat-equi i {
+    display: block;
+    font-style: normal;
+    color: #333;
+    font-size: .9em;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.catalogo_equipo .frecuencia span.plan-prec {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #333;
+}
+
+.catalogo_equipo .frecuencia .btr-tellamamos {
+    border-radius: 2px;
+    background-color: #1F97AE;
+    display: block;
+    font-size: .8em;
+    margin: 0 auto 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 160px;
+    color: #fff;
+}
+
+.catalogo_equipo .frecuencia .btr-tellamamos-red {
+    border-radius: 2px;
+    background-color: #dc262c;
+    display: block;
+    font-size: .8em;
+    margin: 0 auto 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 160px;
+    color: #fff;
+}
+
+.catalogo_equipo .frecuencia .btr-tellamamos-yel {
+    border-radius: 2px;
+    background-color: #F58220;
+    display: block;
+    font-size: .8em;
+    margin: 0 auto 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 160px;
+    color: #fff;
+}
+
+.catalogo_equipo .frecuencia tr.btn-solicit {
+    border-top: none;
+    border-bottom: none;
+}
+
+.catalogo_equipo .frecuencia td.top-title img {
+    display: block;
+    margin: 0 auto;
+}
+/*LIGHTBOX*/
+
+.catalogo_equipo .up-light-cat {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 600px;
+    border-bottom: 1px solid #d2d2d2;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .up-light-cat h3 {
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.catalogo_equipo .up-light-cat p {
+    width: 100%;
+    max-width: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .up-light-cat p span{
+    color:#DA262C;
+}
+
+.catalogo_equipo .up-light-cat b {
+    font-weight: 400;
+    color: #DA262C;
+}
+
+
+
+
+.catalogo_equipo .up-light-cat-loginsp {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.catalogo_equipo .up-light-cat-loginsp h3 {
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.catalogo_equipo .up-light-cat-loginsp p {
+    width: 100%;
+    max-width: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .up-light-cat-loginsp p span{
+    color:#DA262C;
+}
+
+.catalogo_equipo .up-light-cat-loginsp b {
+    font-weight: 400;
+    color: #DA262C;
+}
+
+.catalogo_equipo .down-light-cat-loginsp {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .conoce-tienda img {
+    width: 40%;
+    max-width: 80px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.catalogo_equipo .conoce-tienda h4 {
+    display: block;
+    width: 69%;
+    float: left;
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+.catalogo_equipo .up-light-cat img {
+    margin-top: 20px;
+}
+
+.catalogo_equipo .conoce-tienda {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .conoce-tienda .link {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.catalogo_equipo .sugerimos-cot .link {
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+.catalogo_equipo .sugerimos-cot img {
+    width: 40%;
+    max-width: 80px;
+    display: block;
+    float: left;
+}
+
+.catalogo_equipo .sugerimos-cot {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.catalogo_equipo .sugerimos-cot h4 {
+    display: block;
+    width: 69%;
+    float: left;
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+.catalogo_equipo .bt-green {
+    background-color: #1f97ae;
+    color: #fff;
+    padding: 8px;
+    font-size: .9em;
+    display: block;
+    border-radius: 3px;
+    width: 130px;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.catalogo_equipo .soli-btn {
+    margin-top: 30px;
+}
+/*LANDING DE PRODUCTO */
+/*Landing producto */
+
+.catalogo_equipo section.landing_promo {
+    padding: 0;
+    display: block;
+}
+
+.catalogo_equipo .texto_left_bienvenido14 {
+    float: left;
+    display: block;
+    width: 47%;
+    margin: 0 1%;
+}
+
+.catalogo_equipo .marca_exito b {
+    font-weight: 600;
+}
+
+.catalogo_equipo .texto_left_bienvenido14 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.catalogo_equipo .texto_left_bienvenido10 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.catalogo_equipo section.Bienvenido_background_white .marca_exito {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.catalogo_equipo .texto_left_bienvenido7 {
+    float: left;
+    display: block;
+    width: 47%;
+    margin: 0 1%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.catalogo_equipo .video_principal7 {
+    width: 100%;
+    max-width: 440px;
+    display: block;
+    float: left;
+    margin: 0 2%;
+}
+
+.catalogo_equipo .texto_left_bienvenido7 p {
+    font-size: 1em;
+    color: #6d6d6d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.catalogo_equipo .texto_left_bienvenido7 h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #6d6d6d;
+}
+
+.catalogo_equipo .video_bienvenido {
+    float: left;
+    border: 1px solid #dadada;
+    box-sizing: content-box;
+    width: 100%;
+    background: #fff;
+    height: auto;
+    padding: 2%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.catalogo_equipo .texto_left_bienvenido6 img {
+    max-width: 480px;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.catalogo_equipo section.marca_exito {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.catalogo_equipo .texto_left_bienvenido102 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.catalogo_equipo .caract-adici-equip-left .caract_list_otras {
+    width: 40%;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.catalogo_equipo .caract-adici-equip-left .caract-adici-equip-right {
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+
+.catalogo_equipo .texto_left_bienvenido10 {
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.catalogo_equipo section.banner-detalle-landing {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.catalogo_equipo section.detalle-down-caract .detalle_caracteristicas li {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 180px;
+    min-height: 80px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.catalogo_equipo .precio-banner {
+    display: -webkit-box;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    webkit-display: -webkit-flex !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    flex-direction: column;
+    -webkit-box-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.catalogo_equipo .pre-equi2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.catalogo_equipo .pre-equi2 h2 {
+    font-weight: 700;
+    font-size: 3.3em;
+}
+
+.catalogo_equipo section.table-mobile-plan .bx-wrapper {
+    background: #fff;
+    display: none;
+}
+
+.catalogo_equipo .mas-coti-plan {
+    display: none;
+}
+
+.cat-content .accordion.bgA > div > a:after {
+    content: "\f078";
+    color: #1f97ae;
+    font-size: .8em;
+    float: right;
+    position: relative;
+    top: 8px;
+}
+
+.cat-content .container .magazineOne{
+    height: 240px;
+    width:100%;
+    margin:0;
+}
+
+
+
+/*correciciones detalle */
+
+.catalogo_equipo .product--image .cont-img {
+
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.catalogo_equipo .product--image .cont-img img {
+    max-height: inherit;
+    min-height: inherit;
+    min-width: inherit;
+    vertical-align: middle;
+}  
+
+/*Landing producto */
+/*FIN LANDING DE PRODUCTO 
+/*FIN LIGHTBOX */
+/*INICIO MEDIA QUERIES */
+
+@media all and (max-width: 1240px) {
+    .catalogo_equipo .dropdown7 i.fa.fa-caret-down {
+        border-left: 1px solid #d4d4d4;
+        color: #db262c;
+        display: block;
+        float: right;
+        font-size: 1.3em;
+        height: 42px;
+        padding-left: 10px;
+        width: 28px;
+    }
+    .catalogo_equipo .dropdown6 i.fa.fa-filter {
+        color: #6d6d6d;
+        display: block;
+        float: right;
+        font-size: .8em;
+        height: 0;
+        margin-bottom: 0px;
+        margin-right: -6px;
+        margin-top: 13px;
+        width: 30px;
+    }
+    .catalogo_equipo .dropdown p.multiSel:after {
+        margin-left: 122px;
+    }
+    .catalogo_equipo .menu_responsivo {
+        display: block;
+        height: 40px;
+        margin-left: 2%;
+        margin-right: 2%;
+        max-width: 100%;
+        padding: 0px 0 20px 0;
+        width: 96%;
+    }
+    .catalogo_equipo .dropdown {
+        display: none !important;
+    }
+    .catalogo_equipo .dropdown5 {
+        display: none !important;
+    }
+    .catalogo_equipo .dropdown4 {
+        display: none !important;
+    }
+    .catalogo_equipo .dropdown3 {
+        display: none !important;
+    }
+    .catalogo_equipo .dropdown6 {
+        display: block !important;
+        float: left;
+        margin-right: 2%;
+        max-width: 100%;
+        width: 49%;
+    }
+    .catalogo_equipo .dropdown7 {
+        display: block !important;
+        float: left;
+        max-width: 100%;
+        width: 49%;
+    }
+    .catalogo_equipo .dropdown2 {
+        display: none !important;
+    }
+    .catalogo_equipo .filtros {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .catalogo_equipo .dropdown7 li {
+        margin-left: 7px;
+        padding: 4px 0 4px 0;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .catalogo_equipo .btr_comprar {
+        margin: 10px 10px 10px 10px;
+    }
+    .catalogo_equipo .contenido_equipo .container {
+        text-align: center;
+    }
+    .catalogo_equipo article.equipo {
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .catalogo_equipo article.equipo {
+        max-width: 30%;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .catalogo_equipo article.equipo-model {
+        width: 48%;
+        display: block;
+        float: left;
+        height: auto;
+        margin: 1%;
+        min-height: 520px;
+    }
+    .catalogo_equipo article.equipo-model3 {
+        width: 90%;
+        display: block;
+        float: left;
+        height: auto;
+        margin: 0 2% auto;
+    }
+    .catalogo_equipo .detalle_caracteristicas li {
+        max-width: 49%;
+        margin-bottom: 0;
+    }
+    .catalogo_equipo .caract_list_otras li {
+        margin-left: 14px;
+    }
+    .catalogo_equipo .table-frecuencia h3 {
+        width: 90%;
+    }
+    .catalogo_equipo .table-frecuencia2 h3 {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 959px) {
+    .catalogo_equipo article.equipo {
+        border-radius: 4px;
+        border: 1px solid #dadada;
+        box-sizing: content-box;
+        display: inline-block;
+        height: auto;
+        margin: 20px 1% 20px 1%;
+        max-width: 30%;
+    }
+    .catalogo_equipo .marca_exito .texto_left_bienvenido102 {
+        display: block !important;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .catalogo_equipo .texto_left_bienvenido7 {
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .catalogo_equipo .video_principal7 {
+        width: 92%;
+        max-width: 100%;
+        margin: 0 2%;
+    }
+    .catalogo_equipo .texto_left_bienvenido14 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .catalogo_equipo .texto_left_bienvenido10 img {
+        width: 100%;
+        max-width: 400px;
+        display: none;
+    }
+    .catalogo_equipo .caract-adici-equip-left .caract_list_otras {
+        width: 100%;
+    }
+    .catalogo_equipo .caract-adici-equip-left .caract-adici-equip-right {
+        float: left;
+    }
+    .catalogo_equipo .dropdown6 nav.side-slide li {
+        max-width: 125px;
+        width: 100%;
+    }
+    .catalogo_equipo .dropdown6 nav.side-slide {
+        width: 285px;
+    }
+    .catalogo_equipo .pre-equi2 {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 834px) {
+    .catalogo_equipo article.equipo {
+        display: inline-block;
+        float: left;
+        max-width: 47% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cat-content .magazineOne .up .left p {
+        font-size: 1.3em;
+        width: 92%;
+    }
+
+
+    .cat-content .magazineOne .login-sp .left p {
+        font-size: 1em;
+        width: auto;
+    }
+
+
+    .catalogo_equipo article.equipo-model {
+        width: 96%;
+        min-height: auto;
+    }
+    .catalogo_equipo .product--image {
+        width: 100%;
+        border-right: none;
+    }
+    .catalogo_equipo .product {
+        border: 1px solid #f1f1f1;
+        width: 100%;
+    }
+    .catalogo_equipo .border-equipo {
+        border: none;
+    }
+    .catalogo_equipo .detalle_caracteristicas i {
+        font-size: .6em;
+    }
+    .catalogo_equipo .etiquet-img li {
+        margin: 20px 0px 20px 0px;
+    }
+    .catalogo_equipo section.detalle-down-caract .detalle_caracteristicas li {
+        max-width: 49%;
+        margin-bottom: 0;
+    }
+    .catalogo_equipo .pre-equi2 {
+        margin-top: 130px;
+        margin-left: 10px;
+    }
+    .catalogo_equipo .pre-equi2 h2 {
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .catalogo_equipo .pre-equi2 span {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .cat-content .magazineOne .login-sp{
+        background: url(../images/bg-magazine-sin-productos-M.jpg) no-repeat center top;
+        background-size: cover;
+        padding: 20px 3% 30px;
+    }
+
+
+    .cat-content .magazineOne .up {
+        background: url(../images/banner-cat-equipo-m.png) no-repeat center top;
+        background-size: cover;
+        padding: 20px 3% 30px;
+    }
+
+    .catalogo_equipo .table-frecuencia2 {
+        display: block !important;
+    }
+    .catalogo_equipo .table-frecuencia {
+        display: none;
+    }
+    .catalogo_equipo .banner-detalle-landing .bx-viewport {
+        height: 170px !important;
+    }
+    .catalogo_equipo section.table-mobile-plan .bx-wrapper {
+        background: none;
+        display: block;
+    }
+    .catalogo_equipo section.table-mobile-plan .bx-wrapper .bx-prev {
+        left: 10px;
+        background: url(../images/controls2.png) no-repeat 0 -32px;
+    }
+    .catalogo_equipo section.table-mobile-plan .bx-wrapper .bx-next {
+        right: 10px;
+        background: url(../images/controls2.png) no-repeat -43px -32px;
+    }
+    .catalogo_equipo section.table-mobile-plan .bx-wrapper .bx-pager {
+        text-align: center;
+        font-size: .85em;
+        font-family: Arial;
+        font-weight: bold;
+        color: #666;
+        padding-top: 20px;
+        display: none;
+    }
+    .catalogo_equipo section.table-mobile-plan .bx-wrapper .bx-controls-direction a {
+        position: absolute;
+        top: 107.7%;
+        margin-top: -16px;
+        outline: 0;
+        width: 37px;
+        height: 37px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-indent: -9999px;
+        z-index: 9999;
+    }
+    .catalogo_equipo .mas-coti-plan {
+        display: block !important;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -30px;
+    }
+    .catalogo_equipo .mas-coti-plan span {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .catalogo_equipo article.equipo {
+        display: inline-block;
+        float: left;
+        max-width: 47% !important;
+    }
+    .catalogo_equipo .frecuencia h3 {
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .catalogo_equipo article.equipo {
+        max-width: 98% !important;
+    }
+    .catalogo_equipo .selecc-number p {
+        display: block;
+        float: none;
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+    .catalogo_equipo select.slector-num {
+        max-width: 100%;
+        width: 96%;
+        padding: 0;
+        margin: 2%;
+    }
+    .catalogo_equipo .precio-banner {
+        width: 57%;
+        height: 100%;
+        top: 0;
+        right: 20px;
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .catalogo_equipo article.equipo {
+        max-width: 98% !important;
+    }
+    .catalogo_equipo .pre-equi2 h2 {
+        font-weight: 700;
+        font-size: 1em;
+    }
+    .catalogo_equipo .pre-equi2 span {
+        font-size: .8em;
+    }
+    .cat-content .accordion.bgA .left div.links a.right {
+        display: block;
+        float: left;
+    }
+    .cat-content .accordion.bgA .left div.links a {
+        display: block;
+    }
+}
+
+@media all and (max-width: 375px) {
+    /*INICIO ESTILOS INDEX*/
+    .catalogo_equipo .plan_detalle i {
+        font-size: .7em;
+    }
+    .catalogo_equipo .prepago_detalle i {
+        font-size: .7em;
+    }
+    /*INICIO ESTILOS INDEX*/
+    .catalogo_equipo .btr_tellamamos {
+        font-size: .7em;
+    }
+    .catalogo_equipo .btr_comprar {
+        font-size: .7em;
+    }
+    .catalogo_equipo .dropdown7 dd ul {
+        font-size: .7em;
+    }
+    .catalogo_equipo .mas-coti-plan span {
+        font-size: .9em;
+    }
+    .catalogo_equipo .conoce-tienda b {
+        display: inline-block;
+    }
+    .catalogo_equipo .conoce-tienda h4 {
+        width: 60%;
+        font-size: .8em;
+    }
+    .catalogo_equipo .sugerimos-cot h4 {
+        width: 65%;
+        font-size: .8em;
+    }
+    /*FIN ESTILOS INDEX */
+}
+
+

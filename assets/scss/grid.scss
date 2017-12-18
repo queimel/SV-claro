@@ -208,7 +208,7 @@
       display: none !important;
     }
   }
-  .container {
+  /*.container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -228,7 +228,7 @@
     .container {
       width: 1366px;
     }
-  }
+  }*/
   .row {
     margin-left: -15px;
     margin-right: -15px;
@@ -898,10 +898,13 @@
   .pull-left {
     float: left !important;
   }
-  *,
-  *:before,
-  *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+
+  .armado-nuevo{
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
   }
